@@ -1,0 +1,70 @@
+
+body{
+    background-image: linear-gradient(to right, rgb(92, 11, 65) , rgb(255, 0, 242), rgb(196, 65, 189) );
+    /* background-image: linear-gradient(to right, red , yellow); */
+
+}
+
+html {
+    height:100%;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+
+.calculator {
+    background: rgb(64, 255, 230);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.textView {
+    width: 275px;
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.del:hover {
+    background-color: rgb(149, 165, 5);
+    color: white;
+}
+
+.button {
+    width: 60px;
+    height: 50px;
+    font-size: 22px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 3px rgba(109, 240, 2, 0.867);
+}
+
+.button:hover {
+    box-shadow: 0px 1px 3px rgb(178, 236, 16);
+}
+
+.equal {
+    height: 120px;
+}
+
+.zero {
+    width: 130px;
+}
+
+.equal:hover {
+    background: rgb(8, 233, 8);
+    color: white;
+}
+
